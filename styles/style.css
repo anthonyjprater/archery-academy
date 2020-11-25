@@ -10,9 +10,11 @@
 }
 
 header {
-  padding: 4rem;
   border-bottom: 2px solid #03a3df;
   grid-area: 1 / 1 / 2 / 6;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .main-nav {
@@ -41,8 +43,48 @@ header {
 
 .intro {
   grid-area: 3/ 1 / 4 / 6;
+  place-self: auto;
+  padding: 2rem;
 }
 footer {
   grid-area: 4 / 1 / 5 / 6;
-  background-image: url("images/archeryAcademy-logo-white.png")
+  background-image: url("../images/footerImage.jpg");
+  display: flex;
+  justify-content: space-around;
+  height: 15rem;
+  align-items: center;
+}
+.footer-image {
+  left: 100;
+  order: 2;
+}
+.contact-info {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: Tahoma, arial, sans-serif;
+  line-height: 1.5rem;
+}
+.social {
+  left: 100;
+  order: 2;
+  font-size: 1.25rem;
+  align-self: flex-end;
+}
+address i {
+  font-size: .75rem;
+}
+
+.social i {
+  padding: 0.5rem;
+  color: #03a3df;
+  border: 1px solid #03a3df;
+  border-radius: 20px;
+  margin: 0.25rem;
+}
+.logo-banner {
+  padding: 4rem;
+}
+.intro h1 {
+  padding: 2rem;
+  text-align: center;
 }
