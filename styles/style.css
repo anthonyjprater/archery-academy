@@ -99,7 +99,7 @@ footer {
   align-items: center;
 }
 .footer-image {
-  left: 100;
+  left: 100px;
   order: 2;
 }
 .contact-info {
@@ -117,7 +117,7 @@ a {
   text-decoration: none;
 }
 .social {
-  left: 100;
+  left: 100px;
   order: 2;
   font-size: 1.25rem;
   align-self: flex-end;
@@ -304,7 +304,7 @@ address i {
   padding: 10rem;
 }
 .profiles section > h3 {
-  padding-top: rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   border-top: 2px solid #03a3df;
   border-radius: 15px;
@@ -334,4 +334,9 @@ address i {
 }
 .map h2, .location h2 {
   padding: 0rem 0rem 2rem 0rem;
+}
+.contact-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem;
 }
