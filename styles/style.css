@@ -133,6 +133,9 @@ address i {
   border-radius: 20px;
   margin: 0.25rem;
 }
+.social a {
+  padding-left: 1rem;
+}
 .services {
   grid-area: 3 / 2 / 4 / 5;
   padding: 2rem 2rem 0rem 2rem;
@@ -339,4 +342,20 @@ address i {
   font-size: 1.25rem;
   font-weight: bold;
   padding: 1rem;
+}
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
