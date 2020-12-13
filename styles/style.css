@@ -359,3 +359,11 @@ address i {
   height: 1px;
   overflow: hidden;
 }
+a:hover {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+a:focus {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
